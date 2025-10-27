@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Shubhangi-nci/DevOpsSec-project-countdown .git'
+                git 'https://github.com/Shubhangi-nci/DevOpsSec-project-countdown.git'
             }
         }
         stage('Run Python App') {
