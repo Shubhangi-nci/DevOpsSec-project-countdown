@@ -7,5 +7,10 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
+# Expose port 5173 for the  application
+EXPOSE 5173
+
 # Set default command
 CMD ["python", "app.py"]
+
+
