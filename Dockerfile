@@ -11,6 +11,6 @@ COPY . .
 EXPOSE 5173
 
 # Set default command
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]
 
 
